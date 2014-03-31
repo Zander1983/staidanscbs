@@ -10,10 +10,10 @@
         standard_api_key = "hv7Vgd4jsbb",
         school_name = "St Aidan's CBS",
         twitter_handle = "staidanscbs",
-        gmail = 'staidanscbs@gmail.com',
+        gmail = 'cbsstaidans@gmail.com',
         is_push = false,
         is_emulator = false,
-        in_browser = false;
+        in_browser = true;
 
     /********device id and api key for browser testing*********/
     var test_device_id = 87,

@@ -16,7 +16,7 @@ define(function (require) {
             feeds["academic"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw';  
             feeds["sport"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=6&format=raw';  
             feeds["people"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=4&format=raw';  
-            feeds["extra-curricular"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=6&format=raw';  
+            feeds["extra-curricular"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw';  
 
             return feeds[Backbone.history.fragment];
 
