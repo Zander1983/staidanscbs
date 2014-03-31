@@ -1,0 +1,15 @@
+
+
+    <ul id="picture-list">
+        <% _.each(photo, function(item) { %>
+        <li>
+                <a href="#photo-item/<%= item.id %>">
+                    <img class="lazy" data-original="<%= item.url_sq %>" alt="<%= item.title %>" height="70" width="70" />
+                </a>
+        </li>
+        <% }); %>
+    </ul>
+ 
+
+
+

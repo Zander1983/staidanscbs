@@ -1,0 +1,19 @@
+
+
+
+    <ul class="topcoat-list list" >
+    <% _.each(items, function(item) { 
+    %>
+    <li class="topcoat-list__item" data-id="<%= item.id %>">
+        <a href="#tweets-item/<%= item.id %>">
+
+                <img src='<%= item.user.profile_image_url %>'/>
+                <p><%= item.user.name %></p>
+                <p><%= item.text.substring(0, 70) %></p>
+                <span class="chevron"></span>
+
+            </a>
+        </li>
+    <%
+    }); %>
+    </ul>

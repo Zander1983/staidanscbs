@@ -1,0 +1,25 @@
+
+
+        <h3 class='center'><%= model.title %></h3>
+
+        <div class='center' id="inner-container">
+            <p>Starting on 
+                <% 
+                    print(model.startDate); 
+                    if(model.startTime.length>0){
+                        print(' at '+model.startTime);
+                    }
+                %> and finishing on 
+                <%
+                    print(model.endDate);
+                    if(model.endTime.length>0){
+                        print(' at '+model.endTime);
+                    }
+                %>
+            </p>
+            
+            <% if(model.content.length>0){
+                    print('<p>More details:'+model.content+'</p>');
+                }
+            %>
+        </div>

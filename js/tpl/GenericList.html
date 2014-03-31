@@ -1,0 +1,18 @@
+
+    <ul class="topcoat-list list" >
+    <% _.each(items, function(item) { 
+    %>
+    <li class="topcoat-list__item" data-id="<%= item.id %>">
+        <a href="#<%= context %>-item/<%= item.id %>">
+
+                <img src="img/crest_40.jpg" />
+                <p><%= item.title %></p>
+                <p><%= item.pubDate %></p>
+                <span class="chevron"></span>
+
+            </a>
+        </li>
+    <%
+    }); %>
+    </ul>
+

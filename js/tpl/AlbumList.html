@@ -1,0 +1,14 @@
+
+    <ul class="topcoat-list list" id="news-list">
+    <% _.each(album, function(item) { %>
+    <li class="topcoat-list__item" data-id="<%= item.id %>">
+            <a href="#photos/<%= item.id %>">
+                <img src="img/crest_40.jpg" />
+                <p><%= item.title %></p>
+                <p><%= item.num_photos %> photos</p>
+                <span class="chevron"></span>
+            </a>
+        </li>
+    <%
+    }); %>
+    </ul>

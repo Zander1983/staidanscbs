@@ -1,0 +1,26 @@
+
+
+
+    <ul class="topcoat-list list" id="news-list">
+    <% _.every(event, function(item) { 
+    
+    %>
+    <li class="topcoat-list__item" data-id="<%= item.id %>">
+            <a href="#events-item/<%= item.id %>">            
+                <div class='calendar' style="">
+                        <div class='calendar-header'></div>
+                        <div class='calendar-month'><%= item.month %></div>
+                        <div class='calendar-day'><%= item.date %></div>
+                </div>               
+                <p><%= item.title %></p>
+                <p>&nbsp;</p>
+                <span class="chevron"></span>
+            </a>
+        </li>
+    <%
+        if(item.id==10){
+            return false;
+        }
+        return true;
+    }); %>
+    </ul>
