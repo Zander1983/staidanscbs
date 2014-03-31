@@ -30,7 +30,7 @@ define(function (require) {
     
             require(['async!https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'], function(){
             
-                that.myLatlng = new google.maps.LatLng(52.51722,-9.675377);
+                that.myLatlng = new google.maps.LatLng(53.385491,-6.252186);
 
                 that.mapOptions = {
                    center: that.myLatlng,
