@@ -12,7 +12,7 @@
         twitter_handle = "staidanscbs",
         gmail = 'cbsstaidans@gmail.com',
         is_push = false,
-        is_emulator = false,
+        is_emulator = true,
         in_browser = false;
 
     /********device id and api key for browser testing*********/
