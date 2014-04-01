@@ -13,7 +13,7 @@
         gmail = 'cbsstaidans@gmail.com',
         is_push = false,
         is_emulator = false,
-        in_browser = true;
+        in_browser = false;
 
     /********device id and api key for browser testing*********/
     var test_device_id = 87,
